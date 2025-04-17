@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /Users/bala/Desktop/GrpcLeaning/src/main/scala/pubsub/PubSubServer.scala:24:6 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m[33mclass[0m [35mPubSubService[0m [33mextends[0m PubSubServiceGrpc.PubSubService {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m      ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mclass PubSubService needs to be abstract, since def subscribe[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (request: pubsub.my_service.SubscribeRequest, responseObserver:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    io.grpc.stub.StreamObserver[pubsub.my_service.Message]): Unit in [33mtrait[0m [35mPubSubService[0m in [33mobject[0m [35mPubSubServiceGrpc[0m is not defined [0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E038] Declaration Error: /Users/bala/Desktop/GrpcLeaning/src/main/scala/pubsub/PubSubServer.scala:27:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m27 |[0m  [33moverride[0m [33mdef[0m subscribe(request: SubscribeRequest): StreamObserver[Message] = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m               ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[33mmethod[0m [35msubscribe[0m has a different signature than the overridden declaration[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
